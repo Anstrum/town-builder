@@ -7,6 +7,7 @@ local Debugger = {}
 	function Debugger.keyPressed(key)
 		if key == "f6" then
 			Debugger.displayUIDebug = not Debugger.displayUIDebug
+			print("Debug Activated")
 		end
 	end
 
